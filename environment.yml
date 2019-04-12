@@ -1,11 +1,11 @@
 name: example-environment
 channels:
-  - conda-forge
+  - defaults
 dependencies:
-  - python
-  - numpy
-  - networkx
-  - matplotlib
-  - scipy
+  - rise
   - pip:
-    - mougutda
+    - mogutda
+    - numpy
+    - networkx
+    - matplotlib
+    - scipy
